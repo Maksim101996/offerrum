@@ -1,6 +1,14 @@
 @import "reset.scss";
 @import "variables.scss";
 
+@font-face {
+	font-family: "GTWalsheimPro";
+	src: url("../../src/fonts/GTWalsheimPro-Medium.woff2") format("woff2"), url("../../src/fonts/GTWalsheimPro-Medium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
 body {
 	font-family: "Inter", sans-serif;
 	color: var(--primary-color);
