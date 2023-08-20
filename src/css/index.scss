@@ -1,0 +1,10 @@
+@import "reset.scss";
+@import "variables.scss";
+
+body {
+	font-family: "Inter", sans-serif;
+	color: var(--primary-color);
+	background-color: #1d2532;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
