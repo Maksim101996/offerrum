@@ -70,6 +70,16 @@
 		padding: 16px 22px;
 		min-height: 51px;
 		border-radius: 15px;
+		transition: all 0.3s ease 0s;
+		font-weight: 500;
+		&:hover {
+			color: #c3f33b;
+			border: 1px solid #c3f33b;
+		}
+		&:active {
+			background: rgba(224, 255, 172, 0.05);
+			backdrop-filter: blur(7.5px);
+		}
 	}
 	//.menu__logo
 	&__logo {

@@ -1,0 +1,35 @@
+.button {
+	font-family: "GTWalsheimPro";
+	color: #1d2532;
+	font-size: 1.25rem;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
+	padding: 20px 30px;
+	min-height: 51px;
+	border-radius: 20px;
+	line-height: 1.3;
+	background: var(--button-background-color);
+	transition: all 0.3s ease 0s;
+
+	&:hover {
+		box-shadow: 0px 4px 9px 0px rgba(72, 255, 0, 0.25);
+	}
+}
+
+@media (max-width: 991.98px) {
+	.button {
+		font-size: 1.15rem;
+		padding: 15px 30px;
+		position: absolute;
+		bottom: 10px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.button {
+		font-size: 1rem;
+	}
+}
