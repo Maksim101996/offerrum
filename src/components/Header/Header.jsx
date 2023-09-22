@@ -42,7 +42,7 @@ const Header = ({ menu, setMenu }) => {
 				<ul className={!menu ? "menu__items" : "menu__items active"}>
 					{menu && size.width < 992 && <img src={logo} alt="logo" className="menu__logo" />}
 					<li className="menu__item"><a className="menu__link">Главная </a></li>
-					<li className="menu__item"><a className="menu__link" >Что даст обучение</a></li>
+					<li className="menu__item"><a className="menu__link" >Что даст обучение?</a></li>
 					<li className="menu__item menu__item_button"><button className="menu__button">Личный кабинет</button></li>
 				</ul>
 				<div className="menu__mobile-button" onClick={() => setMenu(!menu)}>{menu ? <img src={menuClose} alt="menu-open-icon" /> : <img src={menuOpen} alt="menu-close-icon" />}</div>
